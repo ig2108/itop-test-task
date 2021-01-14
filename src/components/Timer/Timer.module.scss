@@ -1,0 +1,45 @@
+.buttonsWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.timer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonsWrap {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 768px;
+  }
+
+  .timer {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .timer {
+    width: 800px;
+  }
+
+  .buttonsWrap {
+    width: 800px;
+  }
+}

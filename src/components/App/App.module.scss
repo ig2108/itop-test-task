@@ -1,0 +1,17 @@
+.container {
+  width: 320px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+}
